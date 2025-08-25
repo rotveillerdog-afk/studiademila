@@ -1,2 +1,2 @@
-# studiademila
+# studiademila.github.io
 Mi primero repository
