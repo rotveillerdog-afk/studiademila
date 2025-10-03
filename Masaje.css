@@ -382,7 +382,7 @@ h4 {
     z-index: 10;
 }
 .Tarjeta {
-    background-color: #897469;
+    background-color: #c2b6af;
     max-width:  1000px;
     margin: 60px auto;
     padding: 5px 20px;
@@ -532,3 +532,4 @@ h4 {
 .Contact p {
     font-size: 1.5em;
 }
+
