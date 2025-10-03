@@ -65,17 +65,11 @@
       .Nav-Menu.open .language {
         display: flex; /* показываем внутри меню */
         position: absolute;
-        top: 40px;
+        top: 35px;
         right: 100px;
         gap: 10px;
         z-index: 4;
     }
-    /* .Nav-Menu.open .lang a {
-    font-size: 1.2em;
-    color: #333;
-    text-decoration: none;
-}
-
 .Nav-Menu.open .lang a:hover {
     color: #5a4438;
 } */
@@ -149,6 +143,9 @@
     .Nav-button img{
         width: 27;
         height: 17px;
+    }
+	   .Nav-Menu.open .language {
+        top: 15px;
     }
     .lang {
     margin-right: 30px;
@@ -497,4 +494,5 @@
     height: 70px;
     margin-right: 5px;
     }
+
 }
