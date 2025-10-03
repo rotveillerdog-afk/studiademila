@@ -1,0 +1,500 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .container {
+    max-width: 980px;
+     }  
+   .Tarjeta {
+     max-width: 850px;
+    }
+      .Logo-left {
+        margin-top: 10px;
+     }
+
+    .Menu {
+        display: none;
+    }
+    .Name {
+        text-align: center;
+        vertical-align: bottom;
+
+    }
+    .Name h1 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .lang {
+        display: none;
+    }
+   
+    .lang {
+        margin-right: 50px;
+    }
+    .lang-link-Ru,
+    .lang-link-Es  {
+        font-size: 1.2em;
+    }
+    .lang-link-Ru {
+        margin-right: 5px;
+    }
+
+    .Nav-Menu.open .Menu {
+        display: block;
+        position: fixed;
+        top: 0;
+		bottom: 0;
+		width: 40%;
+        height: 70%;
+		right: 0;
+        background-color: #fff;
+        z-index: 1;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        z-index: 3;
+    }
+    .Nav-Menu.open .Menu h2 {
+        transform: none;
+        transition: none;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2; /*регулирует плотность */
+    }
+      .Nav-Menu.open .language {
+        display: flex; /* показываем внутри меню */
+        position: absolute;
+        top: 40px;
+        right: 100px;
+        gap: 10px;
+        z-index: 4;
+    }
+    /* .Nav-Menu.open .lang a {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+}
+
+.Nav-Menu.open .lang a:hover {
+    color: #5a4438;
+} */
+    .Nav-Menu.open .Menu h2:hover {
+        color: #5a4438;
+}
+
+    .Nav-Menu.open .Menu li {
+    margin: 0;
+    padding: 0;
+}
+    .Nav-button {
+        display: block;
+        position: fixed;
+        z-index: 3;
+        right: 5px;
+        top: 40px;
+    }
+    .lang {
+        align-self: flex-start;
+    }
+    .Sert-Container div:nth-child(-n + 7) {
+    height: 250px;
+    width: 176px;
+    }
+    .Sert-Container div:nth-last-child(-n + 13) {
+    width: 338px;
+    height: 235px;
+    }
+    .Infa {
+        margin-top: 40px;
+    }
+    #Infa img {
+    width: 240px;
+    height: 240px;
+    margin-left: 80px;
+    }
+    .Tarjeta {
+    max-width:  650px;
+}
+
+} 
+
+@media (max-width: 768px) { /* Адаптация при уменьшении экрана */
+    .VidiMassaja-Container img {
+        right: 50%;
+        transform: translate(90%, -80%) scale(0.8) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+    h1 {
+        font-size: 3.1rem;
+    }
+    h5 {
+        font-size: 0.7em;
+    }
+    .container {
+    max-width: 740px;
+    }
+   .Tarjeta {
+    max-width: 650px;
+}
+    .Logo img {
+        padding-left: 0px;
+    }
+    .Nav-button {
+    width: 27px;
+    height: 17px;
+    margin-right: 10px;
+    top: 20px;
+    right: 15px;
+    }
+    .Nav-button img{
+        width: 27;
+        height: 17px;
+    }
+    .lang {
+    margin-right: 30px;
+    margin-top: 15px;
+   }
+    
+  .lang-link-Ru,
+  .lang-link-Es  {
+    width: 35px;
+    height: 35px;
+ 
+  }
+
+    .Main-Par {
+        font-size: 1.4em;
+    }
+     .StMas  {
+    font-size: 0.5em;
+    }
+    
+    .VMBtn {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .VidiMassajas-block {
+        margin-bottom: 0;
+    }
+    .VMRef {
+        top: 20px;
+    }
+   
+    .Map iframe {
+        width: 300px;
+        height: 350px;
+        overflow: hidden;
+    }
+    .sert-card {
+        width: 140px;
+        height: 200px;
+    }
+    #Infa {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .Infa-1 {
+        padding-right: 0px;
+    }
+    #Infa img {
+      max-width: 200px;
+      max-height: 200px;
+      margin-left: 80px;
+    }
+    .Infa-Lista {
+     width: 100%;
+    }
+    .Infa img {
+    margin-left: 50px;
+    }
+}
+@media (max-width: 650px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .container {
+    max-width: 630px;
+     }
+     .Main-Par {
+        top: 350px;
+     }
+     .Name {
+        word-spacing: 3px;
+        text-align: left;
+        padding-left: 20px;
+     }
+   .Tarjeta {
+    max-width: 550px;
+    padding-left: 10px;
+}
+    .Logo img {
+        width: 70px;
+        height: 70px;
+        padding-left: 0px;
+    }
+    
+  .lang {
+    margin-right: 40px;
+    
+  }
+   .lang-link-Ru,
+    .lang-link-Es  {
+    width: 30px;
+    height: 25px;
+    }
+    .StMas {
+    padding-right: 0px;
+} 
+  .VidiMassaja-Container img {
+    transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+    #Infa img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    }
+    .Infa-1 {
+        padding-right: 0px;
+    }
+
+  .lang select {
+   text-align: end;
+    margin-right: 0px;
+   
+  }
+    .Nav-button {
+    right: 5px;
+    padding: 0;
+    }
+.Tar-par1 {
+    padding-left: 4%;
+}
+.Tar-par2 {
+    padding-left: 7%;
+}
+.Tar-par3 {
+    padding-left: 10%;
+}
+.Tarjeta img {
+    max-width: 70%;
+    height: auto;
+}
+    .TarW {
+        left: 0px;
+    }
+ .TarWatsap {
+    padding-left: 50%;
+   
+ }
+
+    .Otziv-Blok img {
+    width: 300px;
+    height: 250px;
+}
+ .Contact {
+    flex-direction: column;
+    margin-top: 10px;
+   align-self: center;
+    align-items: center;
+  }
+  
+  .Map iframe {
+    display: block;
+    margin: 0 auto; 
+}
+.Telef {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+
+}
+  .Telef, .Map {
+    flex-grow: 1;
+    justify-content: center;
+    max-width: 100%;
+  }
+   
+    .Instagram {
+ margin-top: 10px;
+}
+.WhatsApp {
+    margin-top: 10px;
+}
+.Instagram img {
+    width: 30px;
+    height: 30px;
+}
+ 
+
+    
+}
+@media (max-width: 490px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .container {
+    max-width: 480px;
+     }
+     .Logo-left {
+        margin-top: 10px;
+        max-width: 15%;
+     }
+     .Logo img {
+        width: 50px;
+        height: 50px;
+     }
+     .Name {
+        word-spacing: 3px;
+        text-align: left;
+     }
+       .lang {
+    margin-top: 15px;
+    margin-right: 45px;
+   }
+   .lang-link  {
+    height: 27px;
+    width: 30px;
+   padding: 2px;
+   text-align: center;
+    font-size: 1em;
+   }
+      .Nav-button {
+        top: 20px;
+        margin-right: 0;
+      }
+
+   .Tarjeta {
+    max-width: 400px;
+}  
+    .BlokVideoFon {
+    height: 550px;
+        }  
+    .Main-Par {
+       top: 400px;
+        font-size: 1rem;
+        width: 40%;
+       
+        overflow: hidden;
+        height: 200px;
+    }
+     .VidiMassaja-Container img {
+        right: 50%;
+        transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+
+      .Contact {
+        flex-direction: column;
+    }
+
+    .Telef, .Map {
+        max-width: 100%;
+    }
+    
+    .Infa img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  
+     .Nav-button {
+        margin-right: 10px;
+    }
+    .Map {
+    width: 350px;
+    height: 300px;
+  
+}
+}
+
+
+@media (max-width: 400px) {
+    body {
+        min-width: 100vw;
+    }
+    .container {
+    max-width: 400px;
+     }
+   .Main-Page {
+    max-width: 400px;
+   }
+    .Main-Par p {
+        width: auto;
+    }
+   .lang {
+    margin-top: 15px;
+    margin-right: 55px;
+   }
+    .lang-link  {
+    width: 25px;
+    height: 25px;
+    }
+    .Infa {
+    max-width: 400px;
+   }
+   #VidiMassaja {
+    max-width: 400px;
+   }
+   .VMBtn {
+    margin-top: 10px;
+   }
+   .VidiMassaja-container img {
+    display: none;
+   }
+   .VMBlocks-item {
+    max-width: 100%;
+   }
+   .Sertificat-section {
+    max-width: 400px;
+   }
+   .Tarjeta {
+    max-width: 380px;
+}
+     .Infa img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    .Main-Par {
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .VMRef {
+        display: block;
+        flex-direction: column;
+    }
+    .Otziv-Blok img {
+    width: 250px;
+    height: 200px;
+    
+}
+.VMBtn {
+    margin-left: 20px;
+}
+.Otziv-Carousel {
+  
+   max-width: 320px;
+   justify-content: center;
+   margin: auto;
+}
+.Otziv-Blok {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.OtzivBtn {
+    margin: auto;
+}
+.Infa img {
+     width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    }
+}
