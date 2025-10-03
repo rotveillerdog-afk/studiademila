@@ -65,6 +65,7 @@
       .Nav-Menu.open .language {
         display: flex; /* показываем внутри меню */
         position: absolute;
+		  position: fixed;
         top: 35px;
         right: 100px;
         gap: 10px;
@@ -496,3 +497,4 @@
     }
 
 }
+
