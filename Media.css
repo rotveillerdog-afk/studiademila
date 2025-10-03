@@ -67,7 +67,7 @@
         position: absolute;
 		  position: fixed;
         top: 35px;
-        right: 100px;
+        right: 70px;
         gap: 10px;
         z-index: 4;
     }
@@ -497,4 +497,5 @@
     }
 
 }
+
 
