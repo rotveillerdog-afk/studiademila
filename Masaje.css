@@ -172,7 +172,7 @@ h4 {
 #Video-fon {
     object-fit: cover;
     background-attachment: fixed;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 0; /* Определяет, что все  другие элементы на страницы будут поверх видео */  
 }
 .Main-Par {
@@ -532,6 +532,7 @@ h4 {
 .Contact p {
     font-size: 1.5em;
 }
+
 
 
 
