@@ -227,6 +227,8 @@
    .Tarjeta {
     /* max-width: 550px; */
     padding-left: 10px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
     .Logo img {
         width: 70px;
@@ -497,6 +499,7 @@
     }
 
 }
+
 
 
 
