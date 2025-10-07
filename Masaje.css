@@ -5,7 +5,7 @@
 
 body {
     font-family: Playfair Display, 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(to bottom right, #ffffff, #5a4438);
+    background: linear-gradient(to bottom right, #ffffff, #A9898B);
     min-height: 100vh;
     color:  #271c16;
     width: 100%;
@@ -532,6 +532,7 @@ h4 {
 .Contact p {
     font-size: 1.5em;
 }
+
 
 
 
