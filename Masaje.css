@@ -382,7 +382,7 @@ h4 {
     z-index: 10;
 }
 .Tarjeta {
-    background-color:  rgb(145, 138, 134, 0.4);;
+    background-color:  rgb(142, 115, 117, 0.3);
     max-width:  100%;
     margin: 60px 50px;
     padding: 5px 20px;
@@ -454,7 +454,7 @@ h4 {
     margin: 80px auto 0;
 }
 .Contact {
-    background-color:  rgb(145, 138, 134, 0.4); /*делает фон полупрозрачным, последняя цифра показывает коэффициент прозрачности */
+    background-color:  rgb(142, 115, 117, 0.3); /*делает фон полупрозрачным, последняя цифра показывает коэффициент прозрачности */
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -532,6 +532,7 @@ h4 {
 .Contact p {
     font-size: 1.5em;
 }
+
 
 
 
