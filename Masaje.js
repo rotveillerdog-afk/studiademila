@@ -108,9 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
             // Открываем текущий, если он не был активен
             if (!isActive) {
                 block.classList.add('active');
-
-                // // Скроллим к открытому блоку (опционально)
-                // block.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
     });
@@ -121,7 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-/* blocks — это коллекция всех элементов с классом .VidiMassajas-block, полученная вот так:const blocks = document.querySelectorAll('.VidiMassajas-block');  */
 document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector('#Nav-Menu');
     const navBtn = document.querySelector('#Nav-button');
@@ -161,14 +157,3 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.style.overflow = '';
     }
 });
-
-// Добавить или нет, подумать!!!!
-// navBtn.onclick = () => {
-//     if(nav.classList.toggle('open')) {
-//         navBtnImg.src = "foto/nav-close.svg";
-//         document.body.style.overflow = 'hidden'; // Блокируем скролл
-//     } else {
-//         navBtnImg.src = "foto/nav-open.svg";
-//         document.body.style.overflow = ''; // Возвращаем скролл
-//     }
-// }
