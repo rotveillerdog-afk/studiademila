@@ -5,10 +5,7 @@
     .container {
     max-width: 980px;
      }  
-   /* .Tarjeta {
-     max-width: 850px;
-    } */
-      .Logo-left {
+    .Logo-left {
         margin-top: 10px;
      }
 
@@ -60,20 +57,17 @@
         transition: none;
         margin: 0;
         padding: 0;
-        line-height: 1.2; /*регулирует плотность */
+        line-height: 1.2;
     }
       .Nav-Menu.open .language {
-        display: flex; /* показываем внутри меню */
+        display: flex;
         position: absolute;
-		  position: fixed;
+        position: fixed;
         top: 35px;
         right: 70px;
         gap: 10px;
         z-index: 4;
     }
-.Nav-Menu.open .lang a:hover {
-    color: #5a4438;
-} */
     .Nav-Menu.open .Menu h2:hover {
         color: #5a4438;
 }
@@ -92,6 +86,10 @@
     .lang {
         align-self: flex-start;
     }
+    .BlokVideoFon {
+    margin-top: 20px;
+
+} 
     .Sert-Container div:nth-child(-n + 7) {
     height: 250px;
     width: 176px;
@@ -108,16 +106,12 @@
     height: 240px;
     margin-left: 80px;
     }
-    /* .Tarjeta {
-    max-width:  650px;
-} */
-
 } 
 
-@media (max-width: 768px) { /* Адаптация при уменьшении экрана */
+@media (max-width: 768px) { 
     .VidiMassaja-Container img {
         right: 50%;
-        transform: translate(90%, -80%) scale(0.8) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+        transform: translate(90%, -80%) scale(0.8) rotate(30deg) ; 
     }
     h1 {
         font-size: 3.1rem;
@@ -128,9 +122,6 @@
     .container {
     max-width: 740px;
     }
-   /* .Tarjeta {
-    max-width: 650px;
-} */
     .Logo img {
         padding-left: 0px;
     }
@@ -145,8 +136,9 @@
         width: 27;
         height: 17px;
     }
-	   .Nav-Menu.open .language {
+       .Nav-Menu.open .language {
         top: 15px;
+       
     }
     .lang {
     margin-right: 30px;
@@ -225,9 +217,9 @@
         padding-left: 20px;
      }
    .Tarjeta {
-    /* max-width: 550px; */
-    padding-left: 10px;
-	margin-left: 20px;
+   
+    padding: 5px 25px;
+    margin-left: 20px;
     margin-right: 20px;
 }
     .Logo img {
@@ -249,7 +241,7 @@
     padding-right: 0px;
 } 
   .VidiMassaja-Container img {
-    transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; 
     }
     #Infa img {
     width: 150px;
@@ -372,9 +364,6 @@
         margin-right: 0;
       }
 
-   /* .Tarjeta {
-    max-width: 400px;
-}   */
     .BlokVideoFon {
     height: 550px;
         }  
@@ -388,7 +377,7 @@
     }
      .VidiMassaja-Container img {
         right: 50%;
-        transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+        transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; 
     }
 
       .Contact {
@@ -410,11 +399,8 @@
     .Map {
     width: 350px;
     height: 300px;
-  
 }
 }
-
-
 @media (max-width: 400px) {
     body {
         min-width: 100vw;
@@ -454,10 +440,7 @@
    .Sertificat-section {
     max-width: 400px;
    }
-   /* .Tarjeta {
-    max-width: 380px;
-} */
-     .Infa img {
+    .Infa img {
       max-width: 100px;
       max-height: 100px;
     }
@@ -478,6 +461,9 @@
 .VMBtn {
     margin-left: 20px;
 }
+   .Tarjeta {
+   padding: 5px 10px;
+}
 .Otziv-Carousel {
   
    max-width: 320px;
@@ -497,9 +483,4 @@
     height: 70px;
     margin-right: 5px;
     }
-
 }
-
-
-
-
